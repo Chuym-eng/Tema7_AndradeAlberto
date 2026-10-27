@@ -63,3 +63,18 @@
   1. Si las fechas ingresadas son inválidas, el sistema solicita corregirlas.
   2. Si no existen ventas en el periodo seleccionado, el sistema muestra un mensaje indicando que no hay información disponible.
   3. Si ocurre un error al generar o exportar el reporte, el sistema informa que la operación no pudo completarse.
+## CU-006: Registrar clientes
+- Actor: Cajero, Administrador.
+- Flujo principal:
+  1. El usuario ingresa al módulo de gestión de clientes.
+  2. El sistema muestra la opción para registrar un nuevo cliente.
+  3. El usuario ingresa los datos del cliente, como nombres, apellidos, documento de identidad, teléfono, dirección y correo electrónico.
+  4. El sistema valida que los datos ingresados sean correctos.
+  5. El sistema verifica que el cliente no se encuentre registrado previamente.
+  6. El sistema guarda la información del cliente en la base de datos.
+  7. El sistema muestra un mensaje de confirmación del registro.
+- Flujo de excepción:
+  1. Si faltan datos obligatorios, el sistema solicita completarlos.
+  2. Si el documento de identidad ya se encuentra registrado, el sistema informa que el cliente ya existe.
+  3. Si los datos ingresados no cumplen con el formato requerido, el sistema solicita corregirlos.
+  4. Si ocurre un error al guardar la información, el sistema informa que no se pudo completar el registro.
