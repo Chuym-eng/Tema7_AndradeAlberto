@@ -11,8 +11,8 @@
 | PRU-008 | REQ-008 | Generar comprobante de venta | Detalles venta |
 | PRU-009 | REQ-009 | Generar reportes de ventas por rango de fechas | Reporte de ventas generado |
 | PRU-010 | REQ-010 | Generar reportes de inventario con el stock actual por prenda, talla y color | Reporte de inventario generado |
-| PRU-011 | REQ-011 | Almacenar cada venta confirmada y permitir consultar el historial por fecha | Historial |
-| PRU-012 | REQ-012 |  Mostrar una alerta cuando el stock de un producto sea menor a 10 unidades | Alerta de stock mínimo |
+| PRU-011 | REQ-011 | Permitir consultar el historial por fecha | Historial |
+| PRU-012 | REQ-012 | Mostrar una alerta cuando el stock de un producto sea menor a 10 unidades | Alerta de stock mínimo |
 
 
 
