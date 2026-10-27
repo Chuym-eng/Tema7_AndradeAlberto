@@ -68,7 +68,7 @@
 - Flujo principal:
   1. El usuario ingresa al módulo de gestión de clientes.
   2. El sistema muestra la opción para registrar un nuevo cliente.
-  3. El usuario ingresa los datos del cliente, como nombres, apellidos, documento de identidad, teléfono, dirección y correo electrónico.
+  3. El usuario ingresa los datos del cliente, como nombres, apellidos y teléfono.
   4. El sistema valida que los datos ingresados sean correctos.
   5. El sistema verifica que el cliente no se encuentre registrado previamente.
   6. El sistema guarda la información del cliente en la base de datos.
