@@ -11,5 +11,5 @@
 | REQ-008 | Generar el comprobante interno de venta con número, fecha, detalle, subtotal, IGV y total |
 | REQ-009 | Generar reportes de ventas por rango de fechas |
 | REQ-010 | Generar reportes de inventario con el stock actual por prenda, talla y color | 
-| REQ-011 | Almacenar cada venta confirmada y permitir consultar el historial por fecha | 
+| REQ-011 | Permitir consultar el historial por fecha | 
 | REQ-012 | Mostrar una alerta cuando el stock de un producto sea menor a 10 unidades |
