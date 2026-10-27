@@ -9,8 +9,8 @@
 | PRU-006 | REQ-006 | Calculo automático de subtotal, IGV y total de venta | Subtotal, IGV, Total de venta|
 | PRU-007 | REQ-007 | Descuento y actualización de stock después de cada venta | Stock actualizado |
 | PRU-008 | REQ-008 | Generar comprobante de venta | Detalles venta |
-| PRU-009 | REQ-009 | Generar reportes de ventas por rango de fechas | |
-| PRU-010 | REQ-010 | Generar reportes de inventario con el stock actual por prenda, talla y color | |
+| PRU-009 | REQ-009 | Generar reportes de ventas por rango de fechas | Reporte de ventas generado |
+| PRU-010 | REQ-010 | Generar reportes de inventario con el stock actual por prenda, talla y color | Reporte de inventario generado |
 | PRU-011 | REQ-011 | Almacenar cada venta confirmada y permitir consultar el historial por fecha | Historial |
 | PRU-012 | REQ-012 |  Mostrar una alerta cuando el stock de un producto sea menor a 10 unidades | Alerta de stock mínimo |
 
