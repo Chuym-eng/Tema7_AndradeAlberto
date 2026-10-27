@@ -1,6 +1,6 @@
 # Casos de uso (v1.0)
-## CU-001: Iniciar sesión (cubre REQ-003)
-- Actor: Usuaio (Administrador, Cajero, Encargado del almacén)
+## CU-001: Iniciar sesión (cubre REQ-001)
+- Actor: Usuario (Administrador, Cajero, Encargado del almacén)
 - Flujo principal:
   1. Se ingresa nombre de usuario y contraseña.
   2. El sistema valida que los datos sean correctos.
