@@ -15,7 +15,7 @@
 | PRU-011 | REQ-011 | Consultar el historial por fecha y abrir una venta | Lista de ventas y su detalle; con fechas inválidas o sin ventas, mensaje |
 | PRU-012 | REQ-012 | Vender hasta dejar una talla y color en 9 y en 10 unidades | Alerta con 9 unidades; sin alerta con 10 |
 | PRU-013 | REQ-013 | Registrar el pago con Yape, Plin o tarjeta | Pago registrado con método y monto; con datos incorrectos, solicita corregirlos |
-| PRU-015 | REQ-015 | Buscar por DNI un cliente al registrar una venta | Cliente asociado a la venta; si no existe, ofrece registrarlo |
+
 
 
 
