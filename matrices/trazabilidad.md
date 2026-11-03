@@ -1,4 +1,4 @@
-# Matriz de trazabilidad
+# Matriz de trazabilidad SIVI Oscar Montano (V1.0)
 | Req | Descripción | CU | Clase | Prueba | ¿Cubierto? |
 |---|---|---|---|---|---|
 | REQ-001 | Inicio de sesión con bloqueo tras 3 intentos fallidos y control de acceso por rol | CU-001 | CLS-Administrador, CLS-Cajero, CLS-Encargado del almacen| PRU-001 | Si |
