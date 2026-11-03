@@ -13,7 +13,7 @@
 | REQ-010 | Generar reportes de inventario por prenda, talla y color | CU-007 | CLS-Reporte, CLS-Producto | PRU-010 | Si |
 | REQ-011 | Consultar historial de ventas por fecha | CU-008 | CLS-Venta, CLS-DetalleVenta, CLS-Comprobante, CLS-Cliente | PRU-011 | Si |
 | REQ-012 | Alerta cuando el stock de un producto, por talla y color, sea menor a 10 unidades | CU-004, CU-003, CU-009 | CLS-Producto | PRU-012 | Si |
-| REQ-013 | Registrar pago con método y monto | CU-004 | CLS-Pago, CLS-Venta| PRU-013 | Si |
+
 
 **Cobertura**
 
