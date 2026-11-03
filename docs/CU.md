@@ -93,3 +93,30 @@
   2. Si el documento de identidad ya se encuentra registrado, el sistema informa que el cliente ya existe.
   3. Si los datos ingresados no cumplen con el formato requerido, el sistema solicita corregirlos.
   4. Si ocurre un error al guardar la información, el sistema informa que no se pudo completar el registro.
+
+  ## CU-007: Generar reporte de inventario
+- Actor: Administrador.
+- Flujo principal:
+  1. El usuario ingresa al módulo de reportes.
+  2. El usuario selecciona la opción de reporte de inventario.
+  3. El sistema muestra los filtros opcionales: categoría, prenda, talla y color.
+  4. El usuario selecciona los filtros que desee o genera el reporte completo.
+  5. El sistema consulta el stock actual en la base de datos.
+  6. El sistema muestra el reporte con el stock por prenda, talla y color.
+  7. El usuario puede exportar o imprimir el reporte.
+- Flujo de excepción:
+  1. Si ninguna prenda coincide con los filtros, el sistema muestra un mensaje indicando que no hay información disponible.
+
+## CU-008: Consultar historial de ventas 
+- Actor: Administrador.
+- Flujo principal:
+  1. El usuario ingresa al módulo de historial de ventas.
+  2. El sistema muestra el filtro de búsqueda por fecha.
+  3. El usuario ingresa una fecha o un rango de fechas.
+  4. El sistema busca las ventas registradas en ese periodo.
+  5. El sistema muestra la lista de ventas con número de comprobante, fecha, cajero, cliente y total.
+  6. El usuario selecciona una venta de la lista.
+  7. El sistema muestra el detalle de la venta: prendas, tallas, colores, cantidades, subtotal y total.
+- Flujo de excepción:
+  1. Si las fechas ingresadas son inválidas o el rango está invertido, el sistema solicita corregirlas.
+  2. Si no existen ventas en el periodo, el sistema muestra un mensaje indicando que no se encontraron resultados.
