@@ -94,7 +94,7 @@
   3. Si los datos ingresados no cumplen con el formato requerido, el sistema solicita corregirlos.
   4. Si ocurre un error al guardar la información, el sistema informa que no se pudo completar el registro.
 
-  ## CU-007: Generar reporte de inventario
+## CU-007: Generar reporte de inventario
 - Actor: Administrador.
 - Flujo principal:
   1. El usuario ingresa al módulo de reportes.
