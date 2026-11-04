@@ -10,7 +10,7 @@
   2. El sistema bloquea el acceso al usuario una vez sobrepasada los 3 intentos.
 
 ## CU-002: Registrar productos 
-- Actor: Administrador.
+- Actor: Encargado de Almacén.
 - Flujo principal:
   1. El usuario ingresa al módulo de productos.
   2. El sistema muestra el formulario de registro.
@@ -59,15 +59,15 @@
   4. Si no se selecciona un método de pago o el monto no coincide con el total, el sistema solicita corregirlos.
 
 ## CU-005: Generar reporte de ventas
-- Actor: Administrador.
+- Actor: Cajero.
 - Flujo principal:
-  1. El administrador ingresa al módulo de reportes.
+  1. El cajero ingresa al módulo de reportes.
   2. El sistema muestra los filtros disponibles para generar el reporte.
-  3. El administrador selecciona el periodo de consulta.
+  3. El cajero selecciona el periodo de consulta.
   4. El sistema consulta las ventas registradas durante el periodo seleccionado.
   5. El sistema calcula los totales y agrupa la información correspondiente.
   6. El sistema muestra el reporte de ventas.
-  7. El administrador puede exportar o imprimir el reporte.
+  7. El cajero puede exportar o imprimir el reporte.
 - Flujo de excepción:
   1. Si las fechas ingresadas son inválidas, el sistema solicita corregirlas.
   2. Si no existen ventas en el periodo seleccionado, el sistema muestra un mensaje indicando que no hay información disponible.
@@ -96,7 +96,7 @@
   4. Si ocurre un error al guardar la información, el sistema informa que no se pudo completar el registro.
 
 ## CU-007: Generar reporte de inventario
-- Actor: Administrador.
+- Actor: Encargado de almacén.
 - Flujo principal:
   1. El usuario ingresa al módulo de reportes.
   2. El usuario selecciona la opción de reporte de inventario.
