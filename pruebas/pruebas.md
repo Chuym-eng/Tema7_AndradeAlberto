@@ -1,4 +1,4 @@
-# Pruebas (v1.1)
+# Pruebas (v1.1) SIVI Oscar Montano
 
 | ID | Requisito | Qué se prueba | Resultado esperado |
 |---|---|---|---|
