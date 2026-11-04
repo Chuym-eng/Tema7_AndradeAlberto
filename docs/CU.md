@@ -1,4 +1,4 @@
-# Casos de uso (V1.0)
+# Casos de uso (V1.1)
 ## CU-001: Iniciar sesión 
 - Actor: Usuario (Administrador, Cajero, Encargado del almacén)
 - Flujo principal:
