@@ -1,4 +1,4 @@
-# Casos de uso (V1.0)
+# Casos de uso (V1.1)
 ## CU-001: Iniciar sesión 
 - Actor: Usuario (Administrador, Cajero, Encargado del almacén)
 - Flujo principal:
@@ -36,26 +36,27 @@
   2. Si el campo de búsqueda está vacío, el sistema solicita ingresar un criterio de búsqueda.
   3. Si ocurre un error de conexión con la base de datos, el sistema informa que no se pudo completar la consulta.
 
-## CU-004: Registrar venta 
+## CU-004: Registrar venta
 - Actor: Cajero.
+- Incluye: CU-003 (Consultar productos).
 - Flujo principal:
   1. El cajero ingresa al módulo de ventas.
   2. El sistema muestra la interfaz para registrar una nueva venta.
   3. El cajero busca y selecciona los productos que desea vender.
   4. El sistema verifica que exista stock suficiente para cada producto.
-  5. El cajero asocia un cliente a la venta, seleccionando uno registrado o registrándolo
-  6. El sistema calcula el importe total de la venta.
-  7. El cajero confirma la venta e ingresa los datos de pago.
-  8. El sistema registra la venta y actualiza el stock de los productos por talla y color.
-  9. El sistema genera el comprobante de venta.
-  10. Si el stock de alguna prenda vendida queda por debajo de 10 unidades, el sistema muestra una alerta de stock bajo.
-  11. El sistema muestra la confirmación de la operación.
+  5. El cajero asocia un cliente a la venta, seleccionando uno registrado o registrándolo.
+  6. El sistema calcula el total de la venta.
+  7. El cajero confirma la venta, selecciona el método de pago (Efectivo, Yape, Plin o Tarjeta) e ingresa el monto.
+  8. El sistema valida que el monto del pago coincida con el total de la venta.
+  9. El sistema registra la venta con su pago y actualiza el stock de los productos por talla y color.
+  10. El sistema genera el comprobante de venta.
+  11. Si el stock de alguna talla y color de las prendas vendidas queda por debajo de 10 unidades, el sistema muestra una alerta de stock bajo.
+  12. El sistema muestra la confirmación de la operación.
 - Flujo de excepción:
   1. Si un producto no tiene stock suficiente, el sistema informa al cajero y no permite vender una cantidad superior a la disponible.
   2. Si la cantidad ingresada es cero o negativa, el sistema solicita corregirla.
   3. Si el cliente indicado no existe, el sistema ofrece registrarlo.
-  4. Si los datos del pago son incorrectos, el sistema solicita corregirlos.
-  5. Si ocurre un error al registrar la venta, el sistema informa del problema y evita descontar el stock sin que la venta quede registrada correctamente.
+  4. Si no se selecciona un método de pago o el monto no coincide con el total, el sistema solicita corregirlos.
 
 ## CU-005: Generar reporte de ventas
 - Actor: Administrador.
