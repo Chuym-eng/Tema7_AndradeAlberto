@@ -8,7 +8,7 @@
 | REQ-005 | Registrar ventas de una o más prendas, indicando la cantidad de cada una, el cliente, pago y fecha correspondiente |
 | REQ-006 | Calcular automáticamente el total de la venta |
 | REQ-007 | Descontar del stock, por talla y color, la cantidad vendida de cada prenda al confirmar la venta | 
-| REQ-008 | Generar el comprobante interno de venta con número, fecha, detalle y total |
+| REQ-008 | Generar el comprobante electrónico de venta validado por SUNAT con número, fecha, detalle y total |
 | REQ-009 | Generar reportes de ventas por rango de fechas |
 | REQ-010 | Aplicar el 5% de descuento a clientes frecuentes |
 | REQ-011 | Generar reportes de inventario con el stock actual por prenda, talla y color | 
