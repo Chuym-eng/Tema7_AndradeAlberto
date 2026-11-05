@@ -15,4 +15,4 @@
 | REQ-012 | Permitir consultar el historial de ventas por fecha, mostrar el estado de su comprobante electrónico por venta (Pendiente, Aceptado, Rechazado o Anulado) y permitir reenviar los comprobantes en estado Pendiente | 
 | REQ-013 | Mostrar una alerta cuando el stock de un producto, por talla y color, sea menor a 10 unidades |
 | REQ-014 | Registrar el pago de la venta indicando el método (Efectivo, Yape, Plin o tarjeta) y el monto|
-| REQ-015 | El sistema debe enviar cada comprobante electrónico a SUNAT mediante un OSE/PSE y registrar su estado (Pendiente, Aceptado, Rechazado o Anulado), con el motivo cuando corresponda. | 
+| REQ-015 | El sistema debe enviar cada comprobante electrónico a SUNAT mediante un OSE/PSE y registrar su estado (Pendiente, Aceptado, Rechazado o Anulado), con el motivo cuando corresponda | 
